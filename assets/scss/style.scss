@@ -42,6 +42,7 @@ img {
         background-repeat: no-repeat;
         display: block;
     }
+
     &-social {
         width: 20px;
         height: 20px;
@@ -150,6 +151,7 @@ img {
             background-color: var(--bg-blue-hover);
         }
     }
+
     &-white {
         background-color: #fff;
         color: var(--bg-one);
@@ -161,6 +163,7 @@ img {
             color: #fff;
         }
     }
+
     &-gold {
         background-color: var(--bg-two);
         color: var(--bg-one);
@@ -1082,17 +1085,22 @@ footer {
         border: 1px solid #E9E9E9;
         box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
         border-radius: 12px;
+
         .form-control {
             padding: 5px 0px 0px 0px;
         }
+
         .form-select {
             padding: 5px 0px 0px 0px;
         }
+
         @media (max-width: 540px) {
-            width: 100%;;
+            width: 100%;
+            ;
         }
 
     }
+
     &-popular {
         .rounded-pill {
             background-color: #FFFFFF !important;
@@ -1130,3 +1138,48 @@ footer {
         border-radius: 16px;
     }
 }
+
+.product-detail {
+    background-color: #bababa;
+    &-image {
+        img {
+            border-radius: 16px;
+        }
+    }
+
+    &-info {
+        border-radius: 16px;
+        background-color: #FFFFFF;
+        height: 100%;
+        width: 100%;
+        .readmore {
+            text-decoration: underline !important;
+        }
+    }
+}
+
+.swiper--detail {
+    &-tumb-slider {
+        border-radius: 16px;
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+        height: 60px;
+        object-fit: cover;
+        img {
+            border-radius: 16px;
+        }
+    }
+
+    &-big-slider {
+        border-radius: 16px;
+
+        img {
+            border-radius: 16px;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+}
+#more {display: none;}
